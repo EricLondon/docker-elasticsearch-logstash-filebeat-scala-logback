@@ -1,3 +1,4 @@
+### Docker Elasticsearch Logstash Filebeat Scala Logback
 
 ```
 # build scala logging app
