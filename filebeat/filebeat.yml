@@ -2,15 +2,21 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /log-data/*.log
+    - /var/lib/mesos/slave/slaves/*/frameworks/*/executors/*/runs/latest/stdout*
+    - /var/lib/mesos/slave/slaves/*/frameworks/*/executors/*/runs/latest/stderr*
   exclude_files: [".gz$"]
   multiline:
     pattern: '^\['
     negate: true
     match: after
 
-output.logstash:
-  hosts: ["logstash:5044"]
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
+  pipeline: "filebeat-pipeline"
 
 setup.kibana:
   host: "kibana:5601"
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: true
