@@ -1,5 +1,9 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.4.2
+FROM docker.elastic.co/elasticsearch/elasticsearch:5.5.1
 
-RUN yum install epel-release -y && yum update && yum install jq -y
+USER root
+
+RUN yum install epel-release -y && yum update -y && yum install jq -y
 
 COPY start-elasticsearch.sh /
+
+USER elasticsearch

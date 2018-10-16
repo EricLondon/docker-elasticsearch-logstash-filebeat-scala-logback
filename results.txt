@@ -1,0 +1,258 @@
+2018-10-08 13:47:57,191 INFO [NiFi logging handler] org.apache.nifi.StdOut 2018-10-08 13:47:57,191 INFO [Timer-Driven Process Thread-359] c.a.nifi.processors.ConsistentListS3 ConsistentListS3[id=01621001-b162-1711-e995-0e45b5cfd8ae] Listed bucket='geppcp.data.implementation.arcadia' prefix='jeff/sources/geppcp/instances/jeff/' filter='.+/error/.+' cache='false' limit='null' marker='null' in 1204 millis (0 new objects)
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAwIggBMPStQDId7B",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-08 13:47:57,191",
+    "agent": "test-agent",
+    "offset": 3390,
+    "logger": "NiFi logging handler",
+    "timestamp2": "2018-10-08 13:47:57,191",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "INFO",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "log_level2": "INFO",
+    "message": "2018-10-08 13:47:57,191 INFO [NiFi logging handler] org.apache.nifi.StdOut 2018-10-08 13:47:57,191 INFO [Timer-Driven Process Thread-359] c.a.nifi.processors.ConsistentListS3 ConsistentListS3[id=01621001-b162-1711-e995-0e45b5cfd8ae] Listed bucket='geppcp.data.implementation.arcadia' prefix='jeff/sources/geppcp/instances/jeff/' filter='.+/error/.+' cache='false' limit='null' marker='null' in 1204 millis (0 new objects)",
+    "@timestamp": "2018-10-17T12:32:04.961Z",
+    "framework": "test-framework",
+    "java_thread": "Timer-Driven Process Thread-359",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "c.a.nifi.processors.ConsistentListS3 ConsistentListS3[id=01621001-b162-1711-e995-0e45b5cfd8ae] Listed bucket='geppcp.data.implementation.arcadia' prefix='jeff/sources/geppcp/instances/jeff/' filter='.+/error/.+' cache='false' limit='null' marker='null' in 1204 millis (0 new objects)",
+    "java_class": "org.apache.nifi.StdOut"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2018-10-09 19:27:54,863 INFO [NiFi logging handler] org.apache.nifi.StdOut 2018-10-09 19:27:54,863 INFO [Timer-Driven Process Thread-413] c.a.n.p.ConsistentDeleteS3Object ConsistentDeleteS3Object[id=1c0ffe2d-0162-1000-3b79-2b1592a36ee4] Successfully delete S3 Object for StandardFlowFileRecord[uuid=9ecc7718-f8e9-46b1-8c77-906bde3fac56,claim=,offset=0,name=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018/normalize/error/Humana_AZ_Service_Fund_Files_2018/Humana_AZ_Service_Fund_Files_2018/AZ-IASIS_20180501_RECAP/AZ-IASIS_PE20180501_RECAP.TXT.ERROR,size=0] in 31 millis; routing to success
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAwIggBMPStQDId7C",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-09 19:27:54,863",
+    "agent": "test-agent",
+    "offset": 4011,
+    "logger": "NiFi logging handler",
+    "timestamp2": "2018-10-09 19:27:54,863",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "INFO",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "log_level2": "INFO",
+    "message": "2018-10-09 19:27:54,863 INFO [NiFi logging handler] org.apache.nifi.StdOut 2018-10-09 19:27:54,863 INFO [Timer-Driven Process Thread-413] c.a.n.p.ConsistentDeleteS3Object ConsistentDeleteS3Object[id=1c0ffe2d-0162-1000-3b79-2b1592a36ee4] Successfully delete S3 Object for StandardFlowFileRecord[uuid=9ecc7718-f8e9-46b1-8c77-906bde3fac56,claim=,offset=0,name=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018/normalize/error/Humana_AZ_Service_Fund_Files_2018/Humana_AZ_Service_Fund_Files_2018/AZ-IASIS_20180501_RECAP/AZ-IASIS_PE20180501_RECAP.TXT.ERROR,size=0] in 31 millis; routing to success",
+    "@timestamp": "2018-10-17T12:32:04.961Z",
+    "framework": "test-framework",
+    "java_thread": "Timer-Driven Process Thread-413",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "c.a.n.p.ConsistentDeleteS3Object ConsistentDeleteS3Object[id=1c0ffe2d-0162-1000-3b79-2b1592a36ee4] Successfully delete S3 Object for StandardFlowFileRecord[uuid=9ecc7718-f8e9-46b1-8c77-906bde3fac56,claim=,offset=0,name=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018/normalize/error/Humana_AZ_Service_Fund_Files_2018/Humana_AZ_Service_Fund_Files_2018/AZ-IASIS_20180501_RECAP/AZ-IASIS_PE20180501_RECAP.TXT.ERROR,size=0] in 31 millis; routing to success",
+    "java_class": "org.apache.nifi.StdOut"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2018-10-09 19:36:04,394 INFO [NiFi logging handler] org.apache.nifi.StdOut 2018-10-09 19:36:04,394 INFO [Timer-Driven Process Thread-1736] c.a.n.processors.ConsistentPutS3Object ConsistentPutS3Object[id=015f1012-c83b-19a7-037e-b39e5818180d] Failure completing upload flowfile=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR bucket=stw2.data.implementation.arcadia key=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR reason=Bad Request (Service: Amazon S3; Status Code: 400; Error Code: 400 Bad Request; Request ID: null)
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAwIggBMPStQDId7D",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-09 19:36:04,394",
+    "agent": "test-agent",
+    "offset": 4900,
+    "logger": "NiFi logging handler",
+    "timestamp2": "2018-10-09 19:36:04,394",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "INFO",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "log_level2": "INFO",
+    "message": "2018-10-09 19:36:04,394 INFO [NiFi logging handler] org.apache.nifi.StdOut 2018-10-09 19:36:04,394 INFO [Timer-Driven Process Thread-1736] c.a.n.processors.ConsistentPutS3Object ConsistentPutS3Object[id=015f1012-c83b-19a7-037e-b39e5818180d] Failure completing upload flowfile=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR bucket=stw2.data.implementation.arcadia key=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR reason=Bad Request (Service: Amazon S3; Status Code: 400; Error Code: 400 Bad Request; Request ID: null)",
+    "@timestamp": "2018-10-17T12:32:04.961Z",
+    "framework": "test-framework",
+    "java_thread": "Timer-Driven Process Thread-1736",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "c.a.n.processors.ConsistentPutS3Object ConsistentPutS3Object[id=015f1012-c83b-19a7-037e-b39e5818180d] Failure completing upload flowfile=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR bucket=stw2.data.implementation.arcadia key=claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR reason=Bad Request (Service: Amazon S3; Status Code: 400; Error Code: 400 Bad Request; Request ID: null)",
+    "error_path": "claims/sources/stwhumaz/instances/claims/wip/Humana AZ Service Fund Files 2018-09/normalize/error/Humana_AZ_Service_Fund_Files_2018-09/Humana_AZ_Service_Fund_Files_2018-09/AZ-IASIS_20180901_RECAP/AZ-IASIS_PE20180901_RECAP.TXT.ERROR",
+    "java_class": "org.apache.nifi.StdOut",
+    "error_bucket": "stw2.data.implementation.arcadia"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[2018-10-16 15:32:30.804] DEBUG [main] LogOutputter.LogOutputter$ - debug
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAwIggBMPStQDId7E",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-16 15:32:30.804",
+    "agent": "test-agent",
+    "offset": 4974,
+    "logger": "main",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "DEBUG",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "message": "[2018-10-16 15:32:30.804] DEBUG [main] LogOutputter.LogOutputter$ - debug",
+    "@timestamp": "2018-10-17T12:32:04.962Z",
+    "framework": "test-framework",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "debug",
+    "java_class": "LogOutputter.LogOutputter$"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[2018-10-16 15:32:30.807] INFO  [main] LogOutputter.LogOutputter$ - info
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAwIggBMPStQDId7F",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-16 15:32:30.807",
+    "agent": "test-agent",
+    "offset": 5047,
+    "logger": "main",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "INFO",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "message": "[2018-10-16 15:32:30.807] INFO  [main] LogOutputter.LogOutputter$ - info",
+    "@timestamp": "2018-10-17T12:32:04.963Z",
+    "framework": "test-framework",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "info",
+    "java_class": "LogOutputter.LogOutputter$"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[2018-10-16 15:32:30.809] WARN  [main] LogOutputter.LogOutputter$ - warn
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAwIggBMPStQDId7G",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-16 15:32:30.809",
+    "agent": "test-agent",
+    "offset": 5120,
+    "logger": "main",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "WARN",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "message": "[2018-10-16 15:32:30.809] WARN  [main] LogOutputter.LogOutputter$ - warn",
+    "@timestamp": "2018-10-17T12:32:04.964Z",
+    "framework": "test-framework",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "warn",
+    "java_class": "LogOutputter.LogOutputter$"
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[2018-10-16 15:35:21.442] ERROR [main] LogOutputter.LogOutputter$ - java.lang.RuntimeException: error
+	at LogOutputter.LogOutputter$.outputLogs(LogOutputter.scala:24)
+	at LogOutputter.LogOutputter$.delayedEndpoint$LogOutputter$LogOutputter$1(LogOutputter.scala:14)
+	at LogOutputter.LogOutputter$delayedInit$body.apply(LogOutputter.scala:9)
+	at scala.Function0.apply$mcV$sp(Function0.scala:34)
+	at scala.Function0.apply$mcV$sp$(Function0.scala:34)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.App.main(App.scala:76)
+	at scala.App.main$(App.scala:74)
+	at LogOutputter.LogOutputter$.main(LogOutputter.scala:9)
+	at LogOutputter.LogOutputter.main(LogOutputter.scala)
+
+{
+  "_index": "filebeat-6.2.0-2018.10.17",
+  "_type": "doc",
+  "_id": "AWaCAxDugBMPStQDId7Q",
+  "_score": 1,
+  "_source": {
+    "timestamp1": "2018-10-16 15:35:21.442",
+    "agent": "test-agent",
+    "offset": 5936,
+    "logger": "main",
+    "prospector": {
+      "type": "log"
+    },
+    "run": "latest",
+    "log_level1": "ERROR",
+    "source": "/var/lib/mesos/slave/slaves/test-agent/frameworks/test-framework/executors/test-executor/runs/latest/stdout.log",
+    "message": "[2018-10-16 15:35:21.442] ERROR [main] LogOutputter.LogOutputter$ - java.lang.RuntimeException: error\n\tat LogOutputter.LogOutputter$.outputLogs(LogOutputter.scala:24)\n\tat LogOutputter.LogOutputter$.delayedEndpoint$LogOutputter$LogOutputter$1(LogOutputter.scala:14)\n\tat LogOutputter.LogOutputter$delayedInit$body.apply(LogOutputter.scala:9)\n\tat scala.Function0.apply$mcV$sp(Function0.scala:34)\n\tat scala.Function0.apply$mcV$sp$(Function0.scala:34)\n\tat scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)\n\tat scala.App.$anonfun$main$1$adapted(App.scala:76)\n\tat scala.collection.immutable.List.foreach(List.scala:389)\n\tat scala.App.main(App.scala:76)\n\tat scala.App.main$(App.scala:74)\n\tat LogOutputter.LogOutputter$.main(LogOutputter.scala:9)\n\tat LogOutputter.LogOutputter.main(LogOutputter.scala)",
+    "@timestamp": "2018-10-17T12:32:04.964Z",
+    "framework": "test-framework",
+    "executor": "test-executor",
+    "beat": {
+      "hostname": "15fda4e055b9",
+      "name": "15fda4e055b9",
+      "version": "6.2.0"
+    },
+    "msg_body": "java.lang.RuntimeException: error\n\tat LogOutputter.LogOutputter$.outputLogs(LogOutputter.scala:24)\n\tat LogOutputter.LogOutputter$.delayedEndpoint$LogOutputter$LogOutputter$1(LogOutputter.scala:14)\n\tat LogOutputter.LogOutputter$delayedInit$body.apply(LogOutputter.scala:9)\n\tat scala.Function0.apply$mcV$sp(Function0.scala:34)\n\tat scala.Function0.apply$mcV$sp$(Function0.scala:34)\n\tat scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)\n\tat scala.App.$anonfun$main$1$adapted(App.scala:76)\n\tat scala.collection.immutable.List.foreach(List.scala:389)\n\tat scala.App.main(App.scala:76)\n\tat scala.App.main$(App.scala:74)\n\tat LogOutputter.LogOutputter$.main(LogOutputter.scala:9)\n\tat LogOutputter.LogOutputter.main(LogOutputter.scala)",
+    "java_class": "LogOutputter.LogOutputter$"
+  }
+}
